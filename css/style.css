@@ -157,3 +157,52 @@ h1 {
     z-index: 2;
     display: none;
 }
+
+@media (max-width: 570px) {
+    #container {
+        width: 440px;
+        top: 60px;
+    }
+
+    #correct {
+        left: 40%;
+    }
+
+    #wrong {
+        left: 38%;
+    }
+
+    #question,
+    #instruction,
+    #choices {
+        width: 420px;
+    }
+
+    #startreset {
+        width: 205px;
+        margin-left: 0;
+    }
+
+    #timeremaining {
+        width: 205px;
+        left: 225px;
+        text-align: center;
+        display: block;
+    }
+
+    #gameOver {
+        width: 400px;
+        height: 250px;
+        background: linear-gradient(#F3CA6B, #F3706C);
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        padding-top: 90px;
+        z-index: 2;
+        display: none;
+    }
+}
