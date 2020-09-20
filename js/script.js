@@ -37,7 +37,6 @@ document.querySelector("#startreset").onclick = () =>
 }
 
 for (let i = 1; i < 5; i++) {
-    console.log("inside loop");
     //if we click on answer box
     document.querySelector("#box" + i).onclick = () =>
     {
@@ -45,7 +44,6 @@ for (let i = 1; i < 5; i++) {
         if (playing) {
             //if correct answer
             if (document.querySelector("#box" + i).innerHTML == correctAnswer) {
-                console.log("correct answer");
                 //increase score by 1
                 score++;
                 //set score value
